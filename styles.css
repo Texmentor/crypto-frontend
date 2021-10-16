@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section-1 {
+  width: 100%;
+  height: 100vh;
+  background: url("./abstraktnyi-geometricheskii-linii-background-fon\ 1.png");
+  position: relative;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.section-1-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: url("./Rectangle\ 73.png");
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header-links-container {
+  width: 73%;
+}
+.header {
+  display: flex;
+  background-color: #141b1e;
+  /* opacity: 0.8; */
+  height: 65px;
+  width: 100%;
+  margin-top: 45px;
+  border-radius: 15px 15px 15px 0px;
+  padding: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.logo-icon {
+  height: 40px;
+}
+.logo-text {
+  position: absolute;
+  padding-left: 140px;
+  padding-top: 10px;
+  height: 100px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  font-size: small;
+  padding: 0 14px;
+  font-weight: 700;
+}
+.action-connect-wallet {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: smaller;
+  padding: 5px 30px;
+  background: linear-gradient(to right, #6dff8d, #3cba92);
+  border-radius: 30px;
+}
+.social-links-container {
+  width: 100%;
+}
+
+.social-links {
+  height: 40px;
+  width: 16%;
+  background-color: black;
+  border-radius: 0px 0px 15px 15px;
+  background-color: #141b1e;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.social-link-icon {
+  cursor: pointer;
+}
+.social-link-icon img {
+  height: 15px;
+}
+.description-container {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.description img {
+  margin-left: -75px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.description h1 {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: -50px;
+}
+.description-logo {
+  display: flex;
+  width: 20%;
+}
+.description-logo img {
+  padding-top: 100px;
+}
+
+.actions {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  margin-top: -80px;
+}
+.action-button {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: smaller;
+  background-color: inherit;
+  font-family: "Titillium Web", sans-serif;
+  padding: 2px 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.btn1 {
+  background: linear-gradient(to right, #164443, #146866);
+}
+.btn2 {
+  background: linear-gradient(to right, #0ba360, #3cba92);
+}
+.btn2 img {
+  height: 35px;
+}
+.btn3 {
+  background-color: #31beaa;
+}
+
+@media (max-width: 1550px) {
+  .header-links-container {
+    width: 80%;
+  }
+  .social-links {
+    width: 20%;
+  }
+  .menu a {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .header-links-container {
+    width: 90%;
+  }
+
+  .social-links {
+    width: 25%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .menu {
+    display: none;
+  }
+  .social-links {
+    width: 30%;
+  }
+}
+
+@media (max-width: 900px) {
+  .social-links {
+    width: 38%;
+  }
+}
